@@ -19,7 +19,7 @@
         min-height: 100%;
         margin: 0;
         padding: 40px 0px;
-        background: linear-gradient(90deg, #1510e6, #5938eb, #7e59f0, #9c79f4, #b79af8, #d1bbfb, #e8ddfd, #ffffff);
+        background: linear-gradient(180deg, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);
       }
       
       .avatar-image {
@@ -38,7 +38,9 @@
 
       .link {
         margin-bottom: 20px;
-        background-color: rgba(85, 86, 186, 0.53)
+        background-color: rgba(85, 86, 186, 0.53);
+        display: flex;
+        align-items: center;
       }
       
       .main-content {
@@ -61,6 +63,11 @@
         display: flex;
         justify-content: space-around;
       }
+
+      .centerlink {
+        text-align: center;
+        flex-grow: 1;
+      }
     </style>
   </head>
 
@@ -82,24 +89,29 @@
             
             <a href="https://www.discord.com/beniibarritas9135" target="_blank">Discord</a>
           </div><!--This div closses SOCIAL-->
+
         <div class="links">
-
-          <p div class="link"></p>
+          <div class="link">
             <img class="lechuga" src="Images24/PF logo.webp">
-            <a href="https://www.youtube.com/@FearProject" target="_blank">Project Fear</a>
+            <a class="centerlink" href="https://www.youtube.com/@FearProject" target="_blank">Project Fear</a>
+          </div>
 
-          <p div class="link"></p>
+          <div class="link">
             <img class="lechuga" src="Images24/LiveScience.png">
-            <a href="https://www.livescience.com/" target="_blank">Live Science</a>
+            <a class="centerlink" href="https://www.livescience.com/" target="_blank">Live Science</a>
+          </div>
 
-          <p div class="link"></p>
+          <div class="link">
             <img class="lechuga" src="Images24/Soompi Logo.jpg">
-            <a href="https://www.soompi.com/" target="_blank">Soompi</a>
+            <a class="centerlink" href="https://www.soompi.com/" target="_blank">Soompi</a>
+          </div>
 
-          <p div class="link"></p>
+          <div class="link">
             <img class="lechuga" src="Images24/3DPN Logo.png">
-            <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">3D Tech Nerd</a>
+            <a class="centerlink" href="https://www.youtube.com/@3DPrintingNerd" target="_blank">3D Tech Nerd</a>
+          </div><!--Always makes sure to close divs hat are holding individuals linked pages-->
+        
         </div><!--This div closses LINKS-->
-      </h2div><!--This div closses MAIN CONTENT-->
+      </div><!--This div closses MAIN CONTENT-->
     </body>
 </html>
